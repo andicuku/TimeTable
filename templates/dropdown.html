@@ -1,0 +1,5 @@
+<label for=""></label>Teacher<select name="" id="">
+	{% for teacher in teachers %}
+		<option value="{{ teacher.id }}">{{ teacher.first_name }}</option>
+	{% endfor %}
+</select>

@@ -1,0 +1,331 @@
+[
+  {
+    "model": "timetable.faculty",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-11-27T23:20:59.110Z",
+      "updated_at": "2021-11-27T23:20:59.110Z",
+      "name": "FACULTY OF ECONOMICS AND ADMINISTRATIVE SCIENCES"
+    }
+  },
+  {
+    "model": "timetable.faculty",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-11-27T23:21:41.211Z",
+      "updated_at": "2021-11-27T23:21:41.211Z",
+      "name": "FACULTY OF LAW AND SOCIAL SCIENCES"
+    }
+  },
+  {
+    "model": "timetable.faculty",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-11-27T23:21:57.457Z",
+      "updated_at": "2021-11-27T23:21:57.457Z",
+      "name": "FACULTY OF ARCHITECTURE AND ENGINEERING"
+    }
+  },
+  {
+    "model": "timetable.building",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-11-28T00:08:23.306Z",
+      "updated_at": "2021-11-28T00:08:23.306Z",
+      "name": "Architecture",
+      "location": "North East 0058"
+    }
+  },
+  {
+    "model": "timetable.building",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-11-28T00:08:39.440Z",
+      "updated_at": "2021-11-28T00:08:39.440Z",
+      "name": "Engineering",
+      "location": "East 0089"
+    }
+  },
+  {
+    "model": "timetable.building",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-11-28T00:08:56.761Z",
+      "updated_at": "2021-11-28T00:08:56.761Z",
+      "name": "Political Science and International Relations",
+      "location": "West 0049"
+    }
+  },
+  {
+    "model": "timetable.classroom",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-11-28T00:28:05.429Z",
+      "updated_at": "2021-11-28T00:33:17.340Z",
+      "name": "A-592",
+      "capacity": 30,
+      "building": 1
+    }
+  },
+  {
+    "model": "timetable.classroom",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-11-28T00:31:38.084Z",
+      "updated_at": "2021-11-28T00:33:45.653Z",
+      "name": "A-744",
+      "capacity": 130,
+      "building": 1
+    }
+  },
+  {
+    "model": "timetable.classroom",
+    "pk": 4,
+    "fields": {
+      "created_at": "2021-11-28T00:33:29.001Z",
+      "updated_at": "2021-11-28T00:33:38.920Z",
+      "name": "A-730",
+      "capacity": 2,
+      "building": 1
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-11-27T23:22:27.176Z",
+      "updated_at": "2021-11-27T23:24:16.957Z",
+      "name": "Economics",
+      "abbreviation": "ECO",
+      "faculty": 1
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-11-27T23:22:46.249Z",
+      "updated_at": "2021-11-27T23:24:09.348Z",
+      "name": "Business Administration",
+      "abbreviation": "BUS",
+      "faculty": 1
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-11-27T23:23:04.029Z",
+      "updated_at": "2021-11-27T23:24:24.845Z",
+      "name": "Business Informatics",
+      "abbreviation": "BINF",
+      "faculty": 1
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 4,
+    "fields": {
+      "created_at": "2021-11-27T23:24:44.573Z",
+      "updated_at": "2021-11-27T23:24:44.573Z",
+      "name": "Banking and Finance",
+      "abbreviation": "BAF",
+      "faculty": 1
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 5,
+    "fields": {
+      "created_at": "2021-11-27T23:25:05.662Z",
+      "updated_at": "2021-11-27T23:25:05.662Z",
+      "name": "Banking and Finance (Albanian)",
+      "abbreviation": "BAFAL",
+      "faculty": 1
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 6,
+    "fields": {
+      "created_at": "2021-11-27T23:25:19.415Z",
+      "updated_at": "2021-11-27T23:25:19.415Z",
+      "name": "International Marketing and Logistics Management",
+      "abbreviation": "IML",
+      "faculty": 1
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 7,
+    "fields": {
+      "created_at": "2021-11-27T23:25:36.942Z",
+      "updated_at": "2021-11-27T23:25:36.942Z",
+      "name": "Civil Engineering",
+      "abbreviation": "CE",
+      "faculty": 3
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 8,
+    "fields": {
+      "created_at": "2021-11-27T23:25:50.030Z",
+      "updated_at": "2021-11-27T23:25:50.030Z",
+      "name": "Computer Engineering",
+      "abbreviation": "CEN",
+      "faculty": 3
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 9,
+    "fields": {
+      "created_at": "2021-11-27T23:26:05.150Z",
+      "updated_at": "2021-11-27T23:26:05.150Z",
+      "name": "Software Engineering",
+      "abbreviation": "SWE",
+      "faculty": 3
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 10,
+    "fields": {
+      "created_at": "2021-11-27T23:26:16.886Z",
+      "updated_at": "2021-11-27T23:27:35.630Z",
+      "name": "Architecture (5-year Integrated Second Cycle Study Program)",
+      "abbreviation": "ARCH",
+      "faculty": 3
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 11,
+    "fields": {
+      "created_at": "2021-11-27T23:26:35.039Z",
+      "updated_at": "2021-11-27T23:26:35.039Z",
+      "name": "Electronics and Digital Communication Engineering",
+      "abbreviation": "ECE",
+      "faculty": 3
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 12,
+    "fields": {
+      "created_at": "2021-11-27T23:26:49.008Z",
+      "updated_at": "2021-11-27T23:26:49.008Z",
+      "name": "Political Science and International Relations",
+      "abbreviation": "PIR",
+      "faculty": 2
+    }
+  },
+  {
+    "model": "timetable.department",
+    "pk": 13,
+    "fields": {
+      "created_at": "2021-11-27T23:27:19.765Z",
+      "updated_at": "2021-11-27T23:27:19.765Z",
+      "name": "Law (5-year Integrated Second Cycle Study Program)",
+      "abbreviation": "Law",
+      "faculty": 2
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-11-27T23:37:30.972Z",
+      "updated_at": "2021-11-27T23:37:58.726Z",
+      "first_name": "Florenc",
+      "surname": "Skuka",
+      "initials": "F.S",
+      "department": 8
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-11-27T23:38:14.908Z",
+      "updated_at": "2021-11-27T23:38:14.908Z",
+      "first_name": "Enea",
+      "surname": "Mancellari",
+      "initials": "E.M",
+      "department": 8
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-11-27T23:38:24.150Z",
+      "updated_at": "2021-11-27T23:38:24.150Z",
+      "first_name": "Egis",
+      "surname": "Zaimaj",
+      "initials": "E.Z",
+      "department": 2
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 4,
+    "fields": {
+      "created_at": "2021-11-27T23:38:34.509Z",
+      "updated_at": "2021-11-27T23:40:19.094Z",
+      "first_name": "Alba",
+      "surname": "Kruja",
+      "initials": "A.K",
+      "department": 3
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 5,
+    "fields": {
+      "created_at": "2021-11-27T23:38:42.703Z",
+      "updated_at": "2021-11-27T23:38:42.703Z",
+      "first_name": "Besjon",
+      "surname": "Zenelaj",
+      "initials": "B.Z",
+      "department": 6
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 6,
+    "fields": {
+      "created_at": "2021-11-27T23:39:27.053Z",
+      "updated_at": "2021-11-27T23:39:27.053Z",
+      "first_name": "Ada",
+      "surname": "Cara",
+      "initials": "A.C",
+      "department": 2
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 7,
+    "fields": {
+      "created_at": "2021-11-27T23:39:36.653Z",
+      "updated_at": "2021-11-27T23:39:36.653Z",
+      "first_name": "Julian",
+      "surname": "Hoxha",
+      "initials": "J.H",
+      "department": 8
+    }
+  },
+  {
+    "model": "timetable.teacher",
+    "pk": 8,
+    "fields": {
+      "created_at": "2021-11-27T23:39:52.752Z",
+      "updated_at": "2021-11-27T23:39:52.752Z",
+      "first_name": "Marsed",
+      "surname": "Leti",
+      "initials": "M.L",
+      "department": 7
+    }
+  }
+]
